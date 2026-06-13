@@ -2,6 +2,8 @@ name: Build and Deploy Static Site (Node 20)
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
